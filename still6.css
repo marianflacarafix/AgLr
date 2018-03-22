@@ -1,0 +1,50 @@
+a {
+    margin: 20px;
+    padding: 20px;
+   	border:45px;
+    font-size:50px;
+}
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+h1{
+	color:red;
+}
+html { 
+  background: url(part6.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+table{
+	color:black;
+	font-size:30px;
+}
+tr{
+	color:black;
+}
+img{
+  position:relative; 
+  right:-1105px;
+  bottom:-300px;
+}

@@ -1,0 +1,43 @@
+a {
+    margin: 20px;
+    padding: 20px;
+   	border:45px;
+    font-size:50px;
+}
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+html { 
+  background: url(part6.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+  
+h1{
+	text-align: center;
+	top:20%;
+}
+p{
+	font-size:100px;
+}

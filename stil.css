@@ -1,0 +1,30 @@
+body { 
+  background: url('../img/ferma.jpg') no-repeat center fixed; 
+  background-size: cover;
+}
+
+.centered {
+    text-align: center;
+}
+
+body { color: #efefef; }
+
+
+.bottom-right{
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+#lgn_btn{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 5px;
+}
+
+#lgn_btn:hover{
+    color: white;
+}
