@@ -1,0 +1,136 @@
+body{
+    background-color:   #BDBDBD;
+}
+#titlu{
+    margin-left:470px;
+    margin-top:50px;
+    margin-bottom: 120px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+
+
+#header{
+    color:white;
+    text-align: right;
+
+    size: 20px;
+    font-size: large;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 3px;
+    text-decoration:none; 
+}
+
+#header:visited {
+    color: #0B0B61;
+    background-color: white;
+    text-decoration: none;
+}
+
+#header:hover {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#header:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}	
+
+
+
+#formular{
+	font-size: 25px;
+	column-count: 2;
+	column-rule-width: 1px;
+    border-right-width: 30px;
+    border-left-color: red;
+    border-right: 5px solid black;
+    border-top:5px solid black ;
+    border-bottom:5px solid black ;
+    border-left:5px solid black ;
+    margin-left: 300px;
+    margin-right: 400px;
+}
+
+#copyright{
+    color:black;
+    bottom: -190px;
+    position: absolute;
+    right: 0px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 110;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    width: 12%;
+    padding:10px 0px 10px 0px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #111;
+}
+
+
+#menu{
+      position: top;
+
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
